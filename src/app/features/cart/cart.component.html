@@ -1,0 +1,15 @@
+<div class="cart">
+
+    <!-- <button (click)="addOneItem()" >Add 1 item </button> -->
+    <input #idToRemove>
+    <button (click)="removeItem(idToRemove.value)" class="btn"> Remove item</button>
+    <button (click)="clearCart()" class="btn"> Clear cart</button>
+
+
+    <div class ="cart-items" *ngIf= "cartItems$" >
+      <div *ngFor = "let cartItem of cartItems$  | async">
+      {{ cartItem.item.name}}
+      </div>
+      </div>
+</div>
+

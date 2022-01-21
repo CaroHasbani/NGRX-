@@ -1,0 +1,28 @@
+
+.cart{
+  color: var(--complimentaryColor);
+margin-left: 100px;
+
+    .btn {
+      background:var(--lightNeutralColor);
+      padding: .375rem .75rem;
+      border: 1px solid var(--lightNeutralColor);
+      border-radius: .25rem;
+      color: var(--darkNeutralColor);
+      transition: color .15s ease-in-out, background-color .15s ease-in-out;
+      margin-bottom: 10px;
+      margin-left: 5px;
+
+      &:hover{
+        padding: .375rem .75rem;
+        border: 1px solid var(--boldMainColor);
+        border-radius: .25rem;
+        color: var(--complimentaryColor);
+        background-color: var(--boldMainColor);
+        transition: color .15s ease-in-out, background-color .15s ease-in-out;
+        margin-left: 5px;
+      }
+    }
+
+
+}

@@ -1,0 +1,63 @@
+
+.movie-container {
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // margin-top: 100px;
+  overflow-x: hidden;
+.card{
+  background-color: var(--none);
+  border: 1px solid var(--none) ;
+   border: 1px solid var(--none);
+
+img{
+ width: 80%;
+ margin-left: 50px;
+ align-items: center;
+}
+  .card-body{
+    overflow-x: hidden;
+    .card-text{
+      color: var(--complimentaryColor);
+      text-align: justify;
+    }
+
+      h4{
+        color: var(--lightNeutralColor);
+        font-size: 18px;
+        line-height: 1.9;
+        font-weight: bold;
+      }
+      h5{
+        font-weight: bold;
+        color: var(--lightNeutralColor);
+        font-size: 16px;
+        line-height: 1.3;
+      }
+
+
+}
+
+.btnMovie {
+  background:var(--lightNeutralColor);
+  padding: .375rem .75rem;
+  border: 1px solid var(--lightNeutralColor);
+  border-radius: .25rem;
+  color: var(--darkNeutralColor);
+  transition: color .15s ease-in-out, background-color .15s ease-in-out;
+  margin-bottom: 10px;
+  margin-left: 5px;
+
+  &:hover{
+    padding: .375rem .75rem;
+    border: 1px solid var(--boldMainColor);
+    border-radius: .25rem;
+    color: var(--complimentaryColor);
+    background-color: var(--boldMainColor);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out;
+    margin-left: 5px;
+  }
+}
+}
+}
